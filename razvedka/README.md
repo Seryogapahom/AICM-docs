@@ -10,6 +10,7 @@
 | `2026-08-30-igor-andreev-public-mechanics.md` | Публичная механика (не школа, не VIP) |
 | `2026-08-30-andreev-hedliners-live-supplement.md` | Инкремент Hedliners LIVE `miWQ3VLcLH4` (снова Андреев) |
 | `2026-08-30-andreev-hedliners-futures.md` | Инкремент: Хедлайнеры фьючерсы `AodqaoVPLOY` (снова Андреев, не новый слой) |
+| `2026-08-30-andreev-mikheev-podcast.md` | Инкремент: подкаст Михеева `m3rcPEkJNZ4` (снова Андреев; ученик S-1 vs кинжал; не S-1) |
 | `2026-08-30-hedliners-20y-mechanics.md` | Кандидат: Анатолий Радченко, US/новость/сектор (`koTINvlf6fw`) |
 | `2026-08-30-hedliners-misha-scalp.md` | Кандидат: Михаил, in-play скальп (`-PLqDWmFgbc`). Не Андреев, не Радченко, не хост |
 | `2026-08-30-hedliners-how-markets-move.md` | Короткий ролик Хедлайнеров: ликвидации лесенкой (`wHPlrty6mBs`) |
