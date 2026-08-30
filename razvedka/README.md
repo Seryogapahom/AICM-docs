@@ -12,6 +12,7 @@
 | `2026-08-30-hedliners-20y-mechanics.md` | Кандидат: Анатолий Радченко, US/новость/сектор (`koTINvlf6fw`) |
 | `2026-08-30-hedliners-misha-scalp.md` | Кандидат: Михаил, in-play скальп (`-PLqDWmFgbc`). Не Андреев, не Радченко, не хост |
 | `2026-08-30-hedliners-how-markets-move.md` | Короткий ролик Хедлайнеров: ликвидации лесенкой (`wHPlrty6mBs`) |
+| `2026-08-30-trader-evolution-triangles.md` | Кандидат: Trader Evolution, треугольники волн (`vymngVM8RkE`). Не Андреев, не EWP-дайджест |
 | `2026-08-30-market-context-open.md` | Открытый HTML: выбор актива, календарь, сессии, связки |
 | `2026-08-30-elliott-open-sources.md` | Открытый корпус Эллиотта |
 | `2026-08-30-ewp-frost-prechter-digest.md` | Дайджест **правил** из легального MyEWI, не копия книги |

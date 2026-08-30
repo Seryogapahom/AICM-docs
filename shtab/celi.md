@@ -25,8 +25,9 @@ AICM не только торговля. Торговля — стартовая
 
 - [x] Михаил / in-play скальп (`-PLqDWmFgbc`) — `razvedka/2026-08-30-hedliners-misha-scalp.md`
 - [x] Хедлайнеры 34с ликвидации-лесенка (`wHPlrty6mBs`)
-- [ ] Trader Evolution: треугольники (`vymngVM8RkE`) — в работе
-- [ ] Eduard Zatulyviter: гайд Эллиотта (`RV-PmmCSr8w`) — очередь после TE; **не** Андреев и **не** TE
+- [x] Trader Evolution: треугольники (`vymngVM8RkE`) — `razvedka/2026-08-30-trader-evolution-triangles.md`
+- [ ] Eduard Zatulyviter: гайд Эллиотта (`RV-PmmCSr8w`) — очередь; **не** Андреев и **не** TE
+- отклонён: слив курса Андреева `F3g7ucZ1oT4` (школа/VIP не архивируем)
 
 ## Очередь (сейчас)
 
