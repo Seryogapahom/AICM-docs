@@ -1,0 +1,13 @@
+# секреты
+.env
+.env.*
+*.pem
+*.key
+*.p12
+
+# черновики и дампы книг
+_draft*
+*.epub
+book-full*
+
+.DS_Store
