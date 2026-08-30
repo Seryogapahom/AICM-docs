@@ -28,8 +28,8 @@ AICM не только торговля. Торговля — стартовая
 - [x] Trader Evolution: треугольники (`vymngVM8RkE`) — `razvedka/2026-08-30-trader-evolution-triangles.md`
 - [x] Eduard Zatulyviter: гайд Эллиотта (`RV-PmmCSr8w`) — `razvedka/2026-08-30-zatulyviter-ewp-guide.md`
 - [x] Армен Геворкян: объём/тени/фибо (`4iOjwZWb8jQ`) — `razvedka/2026-08-30-hedliners-armen-gevorkyan.md`
+- [x] Антон Клевцов: спред/относительная стоимость (`fuQgXJAgmBU`) — `razvedka/2026-08-30-hedliners-anton-klevtsov.md`
 - отклонён: слив курса Андреева `F3g7ucZ1oT4` (школа/VIP не архивируем)
-- в работе: Антон Клевцов (`fuQgXJAgmBU`, t≈29:38)
 
 ## Очередь (сейчас)
 
