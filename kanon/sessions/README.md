@@ -1,19 +1,51 @@
-# Карточки drop1: vision + сессии 01–05
+# Канонист — индекс карточек drop1 (vision + addenda 01–05)
 
-Статус: карточки предпочтений. Не Foundation. Не runtime.
-Дата съёма: 2026-08-30
-Источник: пакет `aicm_foundation_vision_package_2026-08-20_with_trading_foundation_sessions-01-02-03-04-05-addenda`
-Provenance: zip sha256 `227b7204505f422b837f44a241d6bda97db73eea7a853446cdc35bf3f2718786`
+Это **не** герметика ~190MB live/Hermes-сессий. Это карточки предпочтений по unpacked Foundation Vision package 2026-08-20 with Trading Foundation sessions 01–05.
 
-Корневой MANIFEST: status `DISCUSSION_DRAFT`, canonical `false`, contract/implementation/runtime_authority `none`. Это addenda, не герметичные ~190 МБ сессии.
+Источник ROOT (zip sha256 verified `227b7204505f422b837f44a241d6bda97db73eea7a853446cdc35bf3f2718786`):
 
-| файл | дата | статус | numbered PREF verbatim/gist/mention | что добавила |
-|---|---|---|---|---|
-| `vision.md` | 2026-08-18 | DISCUSSION_DRAFT | 0/0/0 (27 vision-statements) | Конституция AICM, роль Trading Foundation, Capability Registry, Mac Studio, ACCEPT → Terminal Closed |
-| `s01.md` | 2026-08-18 | DISCUSSION_CAPTURE_AND_PREFERENCE_DRAFT | 11/0/0 | TF-PREF-001…011 |
-| `s02.md` | 2026-08-18 | DISCUSSION_CAPTURE_AND_PREFERENCE_DRAFT | 6/0/6 | TF-PREF-012…016; ARCH-DISC-001 |
-| `s03.md` | 2026-08-19 | DISCUSSION_CAPTURE_AND_PREFERENCE_DRAFT | 19/0/0 | преемник 012–016 v0.2 + TF-PREF-017…030 |
-| `s04.md` | 2026-08-19 | DISCUSSION_CAPTURE_AND_PREFERENCE_DRAFT | 13/0/2 | TF-PREF-031…034; AICM-L0-PREF-001…009 |
-| `s05.md` | 2026-08-20 | DISCUSSION_CAPTURE_AND_PREFERENCE_DRAFT | 10/0/15 | AICM-L0-PREF-010…019; Block 1 Purpose Kernel закрыт |
+`aicm_foundation_vision_package_2026-08-20_with_trading_foundation_sessions-01-02-03-04-05-addenda`
 
-Уникальные numbered ID в пачке: **54** (TF-001…034 + ARCH-DISC-001 + L0-001…019). Единую карту не сжимали — ждём сессии 06–18.
+Корневой MANIFEST пакета: status `DISCUSSION_DRAFT`, canonical `false`, timezone Europe/Zurich, contract/implementation/runtime_authority `none`. `lineage/` — только provenance predecessor zips, не отдельные сессии.
+
+Картограф **не** вызывался. Дубли и преемники только помечены внутри карточек.
+
+Все карточки: UTF-8 markdown, русский; English technical terms сохранены как в источнике. Markdown originals достаточны (docx пропущены). L0–L2 source files не переписывались.
+
+| файл | дата | статус | package_id | numbered PREF verbatim/gist/mention | что добавила единица | дубли / преемники |
+|---|---|---|---|---|---|---|
+| `vision.md` | 2026-08-18 | DISCUSSION_DRAFT | `AICM-FOUNDATION-VISION-PACKAGE-2026-08-18` | 0/0/0 numbered; vision-statements 27/1/0 | Конституция AICM, роль Trading Foundation, Capability Registry, Mac Studio primary, one ACCEPT → Terminal Closed | исходник; numbered PREF нет |
+| `s01.md` | 2026-08-18 | DISCUSSION_CAPTURE_AND_PREFERENCE_DRAFT | `AICM-TRADING-FOUNDATION-INTERNAL-MODEL-ADDENDUM-2026-08-18-SESSION-01` | 11/0/0 | Knowledge/hypothesis: TF-PREF-001…011 (source≠knowledge, competing scenarios, waiting, auto feedback) | первое появление 001–011 |
+| `s02.md` | 2026-08-18 | DISCUSSION_CAPTURE_AND_PREFERENCE_DRAFT | `AICM-TRADING-FOUNDATION-KNOWLEDGE-OBJECT-MODEL-ADDENDUM-2026-08-18-SESSION-02` | 6/0/6 | Object model + bootstrap: TF-PREF-012…016; AICM-ARCH-DISC-PREF-001 | mention/дубль 002,006–009,011 vs s01; 012–016 получат v0.2 в s03 |
+| `s03.md` | 2026-08-19 | DISCUSSION_CAPTURE_AND_PREFERENCE_DRAFT | `AICM-TRADING-FOUNDATION-KNOWLEDGE-OBJECT-MODEL-ADDENDUM-2026-08-19-SESSION-03` | 19/0/0 | v0.2 object-model/bootstrap + TF-PREF-017…030 (planes, SourceAssertion, identity, maturity≠authority, training-derived, bounded dependency) | преемник 012–016 vs s02; relation `additive_only_with_versioned_preference_successors_no_in_place_rewrite` |
+| `s04.md` | 2026-08-19 | DISCUSSION_CAPTURE_AND_PREFERENCE_DRAFT | `AICM-TRADING-FOUNDATION-SITUATION-CONTEXT-AND-AUTONOMOUS-EVOLUTION-ADDENDUM-2026-08-19-SESSION-04` | 13/0/2 | SituationContextSnapshot TF-PREF-031…034; Layer Zero AICM-L0-PREF-001…009 | mention 001 и 030; Purpose Kernel ещё OPEN |
+| `s05.md` | 2026-08-20 | DISCUSSION_CAPTURE_AND_PREFERENCE_DRAFT | `AICM-TRADING-FOUNDATION-PURPOSE-KERNEL-AND-AUTONOMY-ADDENDUM-2026-08-20-SESSION-05` | 10/0/15 | AICM-L0-PREF-010…019; закрыт Block 1 Purpose Kernel and cold start | mention L0-001…009, TF-031…034, TF-001, TF-030; не rewrite 001–034 / L0-001–009 |
+
+Счётчики — уникальные numbered PREF ID на карточку, одна fidelity на ID. Vision считается отдельно (нет PREF ID).
+
+---
+
+# Drop2 — addenda 13–18
+
+Это **не** архив s06–s12: в этой пачке их нет, тела L0-020–043 / L1-001–019 / L2 до s13 **не выдуманы**. Drop1 таблица выше не переписывалась.
+
+Корни пакетов (zip в git не кладём):
+- `AICM-TRADING-FOUNDATION-SESSION-13-ADDENDUM-2026-08-22`
+- `AICM-TRADING-FOUNDATION-SESSION-14-ADDENDUM-2026-08-22`
+- `AICM-TRADING-FOUNDATION-SESSION-15-ADDENDUM-2026-08-23`
+- `AICM-TRADING-FOUNDATION-SESSION-16-ADDENDUM-2026-08-23`
+- `AICM-TRADING-FOUNDATION-SESSION-17-ADDENDUM-2026-08-23`
+- `AICM-TRADING-FOUNDATION-SESSION-18-ADDENDUM-2026-08-24`
+
+Картограф **не** вызывался. GitHub / zip / Hermes / live не трогались. L0–L2 source не переписывались.
+
+| файл | дата | статус | package_id | numbered PREF verbatim/gist/mention-group | что закрыла единица | OPEN remaining (named) |
+|---|---|---|---|---|---|---|
+| `s13.md` | 2026-08-22 | `L1_B4_CONSILIUM_AND_KNOWLEDGE_EVOLUTION_AUTHORITY_SEMANTIC_CLOSURE` | `AICM-TRADING-FOUNDATION-SESSION-13-ADDENDUM-2026-08-22` | 11/0/1 (`AICM-L1-PREF-020`…`030`; closure `AICM-L1-B4-CLOSURE-001` отдельно) | **L1-B4** semantic | `OPEN-12-01`…`06`, `OPEN-13-01`…`10` |
+| `s14.md` | 2026-08-22 | `L1_B5_01_BEST_BOUNDED_SLICE_SELECTION_AND_SCOPE_CONTRACT_SEMANTIC_CLOSURE` | `AICM-TRADING-FOUNDATION-SESSION-14-ADDENDUM-2026-08-22` | 9/0/1 (`AICM-L1-PREF-031`…`039`; closure `AICM-L1-B5-01-CLOSURE-001` отдельно) | **L1-B5-01** semantic; parent L1-B5 ещё IN PROGRESS | `OPEN-12-01`…`06`, `OPEN-13-01`…`09`, `OPEN-14-01`…`10` (`OPEN-13-10` закрыт slice) |
+| `s15.md` | 2026-08-23 | `LEVEL_1_SEMANTIC_CLOSURE` | `AICM-TRADING-FOUNDATION-SESSION-15-ADDENDUM-2026-08-23` | 16/0/1 (`AICM-L1-PREF-040`…`055`) | **L1-B5-02**, parent **L1-B5**, **Level 1** FORMALLY CLOSED | `OPEN-12-01`…`06`, `OPEN-13-01`…`09` (`OPEN-14-01`…`10` закрыты) |
+| `s16.md` | 2026-08-23 | `L2_B1_SEMANTIC_CLOSURE` | `AICM-TRADING-FOUNDATION-SESSION-16-ADDENDUM-2026-08-23` | 33/0/1 (`AICM-L2-PREF-001`…`033`) | **L2-B1** semantic; Level 2 ещё OPEN | `OPEN-17-01`…`12` (`OPEN-16-01`…`11` закрыты) |
+| `s17.md` | 2026-08-23 | `L2_B2_AND_L2_B3_SEMANTIC_CLOSURE` | `AICM-TRADING-FOUNDATION-SESSION-17-ADDENDUM-2026-08-23` | 69/0/1 (`AICM-L2-PREF-034`…`102`) | **L2-B2**, **L2-B3**; Level 2 ещё OPEN | `OPEN-18-01`…`12` (`OPEN-17-01`…`12` закрыты) |
+| `s18.md` | 2026-08-24 | `READY` | `AICM-TRADING-FOUNDATION-SESSION-18-ADDENDUM-2026-08-24` | 44/0/1 (`AICM-L2-PREF-103`…`146`) | **L2-B4**; **Level 2** FORMALLY_CLOSED; L3-B1 ACTIVE_NOT_CLOSED; confirmed L3 PREF = 0 | `OPEN-19-01`…`12` (`OPEN-18-01`…`12` закрыты) |
+
+Unique NEW numbered PREF IDs drop2: **182** (`L1-020`…`055` = 36; `L2-001`…`146` = 146). Inherited TF/L0/L1-prior/DOC — mention-group, не reopen. Именованные REJECTED: s13 `REJECTED-13-01`…`19`; s14 `REJECTED-14-01`…`15`; s15/s16/s17/s18 именованных REJECTED ID нет.
