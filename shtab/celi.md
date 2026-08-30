@@ -62,7 +62,8 @@
 
 - [x] Drop1: vision + s01–s05 → `kanon/sessions/` (addenda 2026-08-18…20, zip sha `227b7204…`)
 - [x] Drop2: s13–s18 → `kanon/sessions/s13.md`–`s18.md`
-- [ ] Дыра s06–s12: отдельных addenda нет; по lineage s18 нужен кумулятив 01–10 + addenda 11–12
+- [x] s06–s12 карточки → `kanon/sessions/s06.md`–`s12.md`
+- [ ] Дыра s06–s12: README отмечает proposed vs confirmed (s06 `025`…`032` proposed); lineage 01–10 + addenda 11–12
 - [ ] Единая карта Картографа — только после 18 карточек
 
 ## Очередь (сейчас)
