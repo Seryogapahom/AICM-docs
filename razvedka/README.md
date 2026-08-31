@@ -22,6 +22,7 @@
 | `2026-08-30-elliott-open-sources.md` | Открытый корпус Эллиотта |
 | `2026-08-30-ewp-frost-prechter-digest.md` | Дайджест **правил** из легального MyEWI, не копия книги |
 | `2026-08-31-douglas-zonalnyy-treyding.md` | Дайджест Дуглас «Зональный трейдинг» (психология исполнения, не зоны спроса/предложения; не копия книги) |
+| `2026-08-31-mark-douglas-trading-in-the-zone.md` | ExecutionPolicy: гейты `MD-EP-01…12` + provenance S1–S16. Не PREF, не сливать с дайджестом R-D |
 | `2026-08-30-andreev-vs-elliott.md` | Карта расхождений v1 |
 | `2026-08-30-andreev-vs-elliott-v2.md` | Карта расхождений v2 |
 | `2026-08-30-andreev-vs-elliott-v3.md` | Карта расхождений v3 (против дайджеста книги) |
