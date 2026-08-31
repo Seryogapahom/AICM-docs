@@ -24,6 +24,7 @@
 | `2026-08-31-douglas-zonalnyy-treyding.md` | Дайджест Дуглас «Зональный трейдинг» (психология исполнения, не зоны спроса/предложения; не копия книги) |
 | `2026-08-31-mark-douglas-trading-in-the-zone.md` | ExecutionPolicy: гейты `MD-EP-01…12` + provenance S1–S16. Не PREF, не сливать с дайджестом R-D |
 | `2026-08-31-ai-questionnaire-ecosystems.md` | Knowledge Candidate: ИИ-анкетные экосистемы (слои A/B/C не склеены; `QE-A-01…10` / `QE-B-*` / `QE-C-01…08`; фишки лабы `HQ-01…08`, X write не расширяем) |
+| `2026-08-31-research-center-as-container.md` | Knowledge Candidate: runtime-формы центра как сменный контейнер (`LC-01…16`). OCI=fs+entrypoint, не identity. Один контейнер default. Не LangGraph/CrewAI/Letta как AICM. Не PREF. |
 | `2026-08-30-andreev-vs-elliott.md` | Карта расхождений v1 |
 | `2026-08-30-andreev-vs-elliott-v2.md` | Карта расхождений v2 |
 | `2026-08-30-andreev-vs-elliott-v3.md` | Карта расхождений v3 (против дайджеста книги) |
