@@ -84,6 +84,7 @@ FRED API: ToS (июнь 2024) запрещает AI-тренировку и ар
 2. `shtab/celi.md` — что штаб считает очередью **сейчас**.
 3. `shtab/plan-cikl-2.md` — план переработки цикла 2.
 4. `shtab/ramka.md` — чего лаборатория не делает.
+4a. `shtab/2026-08-31-lab-as-container.md` — контракт сменного исследовательского центра (один контейнер default). Не Hermes.
 5. `razvedka/README.md` — индекс корпусов.
 6. `kontury/README.md` — спеки и отчёты replay.
 7. `sverki/README.md` — какие напряжения уже названы.
