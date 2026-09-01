@@ -199,7 +199,7 @@ ACCESS: 2026-08-30 (Europe/Zurich). Клонов нет. Датасеты не �
 ## Что не брать
 
 - Школы, VIP, серые PDF, ключи площадок, live-клиент как дом исполнения (Freqtrade/Jesse/Hummingbot/Nautilus-live).
-- FRED API ToS июнь 2024: нет AI/ML training и нет cache/archive API content (уже в /workspace/aicm/intel/2026-08-30-market-context-open.md).
+- FRED API ToS июнь 2024: нет AI/ML training и нет cache/archive API content (уже в local/intel/2026-08-30-market-context-open.md).
 - Yahoo Finance ToS: automated collection forbidden; не yfinance, не backtrader Yahoo-фид.
 - Stooq: JS wall, ToS не виден — red flag.
 - BLS HTML 403 / bot-block.
