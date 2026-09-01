@@ -8,8 +8,8 @@
 
 | Роль | Что |
 |---|---|
-| Пакет механик | `/workspace/aicm/intel/2026-08-30-igor-andreev-public-mechanics.md` |
-| Карта видео (ID) | `/workspace/aicm/intel/2026-08-30-igor-andreev-videos.md` — grep по ключам, не полный каталог |
+| Пакет механик | `local/intel/2026-08-30-igor-andreev-public-mechanics.md` |
+| Карта видео (ID) | `local/intel/2026-08-30-igor-andreev-videos.md` — grep по ключам, не полный каталог |
 | Учебник (открытый) | Wikipedia: Elliott wave principle |
 | Учебник (открытый) | ChartSchool: три статьи серии Elliott Wave Analysis (запрошенный URL `…/chart-patterns/elliott-wave-analysis` дал 404; контент лежит в `…/market-analysis/elliott-wave-analysis-articles/`) |
 | Учебник (открытый) | Investopedia: `elliottwavetheory.asp` — WebFetch вернул 402; использованы поисковые сниппеты той же страницы и соседних Investopedia (impulse / corrective / article 111401) |
