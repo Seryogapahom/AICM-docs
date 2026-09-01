@@ -15,6 +15,7 @@
 | [`2026-08-30-d-1.md`](2026-08-30-d-1.md) | D-1 лабораторный zigzag 10% + фильтры импульса. Не Андреев. Торговли нет. |
 | [`2026-08-30-d-1-replay.md`](2026-08-30-d-1-replay.md) | Отчёт разметки D-1 **SUCCESS**. CSV меток не в git. |
 | [`2026-08-31-ep-1.md`](2026-08-31-ep-1.md) | EP-1 Douglas ExecutionPolicy overlay на узкий S-1. Не вход, не зоны, не гибрид. HQ-03: принять overlay. Market replay не стартовать. |
+| [`2026-09-01-ep-1-replay.md`](2026-09-01-ep-1-replay.md) | Диагностика EP-1 **SUCCESS**: G01–G07 на 6 филлах; series **INSUFFICIENT_SAMPLE**. Не market replay. |
 
 Куда класть: `YYYY-MM-DD-<id>.md` + строка сюда. Штаб архивирует. Один контур — одна проверяемая формулировка. Zip, CSV и parquet в git не класть.
 
