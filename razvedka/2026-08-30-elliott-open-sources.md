@@ -6,9 +6,9 @@ ACCESS: 2026-08-30 (Europe/Zurich)
 Правило пишется только если страница его явно формулирует.
 
 Сырьё черновиков:
-- `/workspace/aicm/intel/_draft-elliott-open.md`
-- `/workspace/aicm/intel/_draft-elliott-primary-legal.md`
-- `/workspace/aicm/intel/_draft-elliott-closed.md`
+- `local/intel/_draft-elliott-open.md`
+- `local/intel/_draft-elliott-primary-legal.md`
+- `local/intel/_draft-elliott-closed.md`
 
 ---
 
