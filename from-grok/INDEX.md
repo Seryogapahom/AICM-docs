@@ -1,11 +1,11 @@
 # INDEX — накопленное поле Grok
 
-Обзор blobов на `main` на 2026-09-01. Коммит среза: `dd0c4964fec231d2623cd7d9f0df5a68b2bb1b7a` (Трейдер + демо-контур). Не канон. Не PREF. Не Foundation.
+Обзор blobов на `main` на 2026-09-01. Коммит среза: `d6c1b8520faa9cba5a9b9cfed8b106b92f2895a7` (инвентарь демо-ленты). Не канон. Не PREF. Не Foundation.
 Новые пакеты Grok кладутся только в `from-grok/`. Исторические пути не переносились.
 
 Статусы: **архив** (закончено, не меняется) / **кандидат** / **сверка** / **диагностика** / **источник Владельца** / **живой runbook** (меняется). Этот файл обновлять при каждом изменении поля, включая строку коммита среза.
 
-N = **86** (все blobы `main` кроме `.gitignore`, включая этот INDEX и PROVENANCE).
+N = **87** (все blobы `main` кроме `.gitignore`, включая этот INDEX и PROVENANCE).
 
 ## Корень
 
@@ -23,6 +23,7 @@ N = **86** (все blobы `main` кроме `.gitignore`, включая это�
 | `from-chatgpt/README.md` | Метка каталога ChatGPT | живой runbook |
 | `from-owner/README.md` | Метка каталога Владельца | живой runbook |
 | `from-grok/INDEX.md` | Этот обзор поля (полный список файлов) | живой runbook |
+| `from-grok/demo/2026-09-01-lenta.md` | Инвентарь сессий Enabler: Bitget DEMO / TV / CoinGlass. Не вход | диагностика |
 | `from-grok/2026-09-01-demo-contour.md` | Грант Enabler: Bitget DEMO + TradingView + CoinGlass. Не live-деньги | живой runbook |
 | `from-grok/2026-09-01-pattern-loop.md` | Ежедневный контур: 5 правил + replay + эволюция схемы. Не PREF, не канон | живой runbook |
 | `from-grok/PROVENANCE.md` | Провенанс задним числом | живой runbook |
