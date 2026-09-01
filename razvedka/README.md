@@ -24,6 +24,7 @@
 | `2026-08-31-douglas-zonalnyy-treyding.md` | Дайджест Дуглас «Зональный трейдинг» (психология исполнения, не зоны спроса/предложения; не копия книги) |
 | `2026-08-31-mark-douglas-trading-in-the-zone.md` | ExecutionPolicy: гейты `MD-EP-01…12` + provenance S1–S16. Не PREF, не сливать с дайджестом R-D |
 | `2026-09-01-instrumenty-mir-i-avtomatizaciya.md` | Knowledge Candidate: инструменты мира/интерфейса/автоматизации (`WI-01…28`), стоп-лист. Не PREF, не QE, не внедрение. |
+| `2026-09-01-s03-open-tools.md` | Инкремент Разведчика к WI: идентичность/viewport/хроника (`S03-A/B/C/D-*`). Не WORLD-PREF, не закрытие S03. |
 | `2026-09-01-aicm-world-preferences-lineage.md` | Источник Владельца: карта мира AICM S01–S02 CLOSED / S03 NEXT (`WMAP-2026-08-31`). Не канон лабы, не PREF, не закрытие S03. |
 | `2026-08-31-ai-questionnaire-ecosystems.md` | Knowledge Candidate: ИИ-анкетные экосистемы (слои A/B/C не склеены; `QE-A-01…10` / `QE-B-*` / `QE-C-01…08`; фишки лабы `HQ-01…08`, X write не расширяем) |
 | `2026-08-31-research-center-as-container.md` | Knowledge Candidate: runtime-формы центра как сменный контейнер (`LC-01…16`). OCI=fs+entrypoint, не identity. Один контейнер default. Не LangGraph/CrewAI/Letta как AICM. Не PREF. |
