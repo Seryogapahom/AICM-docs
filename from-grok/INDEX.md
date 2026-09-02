@@ -1,11 +1,11 @@
 # INDEX — накопленное поле Grok
 
-Обзор blobов на `main` на 2026-09-01. Коммит среза: `d6c1b8520faa9cba5a9b9cfed8b106b92f2895a7` (инвентарь демо-ленты). Не канон. Не PREF. Не Foundation.
+Обзор blobов на `main` на 2026-09-02. Коммит среза: `e6bac3933eccc3bf35c68dde4a68ede9015e1df1` (WR60 контекст + C1). Не канон. Не PREF. Не Foundation.
 Новые пакеты Grok кладутся только в `from-grok/`. Исторические пути не переносились.
 
 Статусы: **архив** (закончено, не меняется) / **кандидат** / **сверка** / **диагностика** / **источник Владельца** / **живой runbook** (меняется). Этот файл обновлять при каждом изменении поля, включая строку коммита среза.
 
-N = **87** (все blobы `main` кроме `.gitignore`, включая этот INDEX и PROVENANCE).
+N = **98** (все blobы `main` кроме `.gitignore`, включая этот INDEX и PROVENANCE).
 
 ## Корень
 
@@ -25,6 +25,21 @@ N = **87** (все blobы `main` кроме `.gitignore`, включая это�
 | `from-grok/INDEX.md` | Этот обзор поля (полный список файлов) | живой runbook |
 | `from-grok/demo/2026-09-01-lenta.md` | Инвентарь сессий Enabler: Bitget DEMO / TV / CoinGlass. Не вход | диагностика |
 | `from-grok/2026-09-01-demo-contour.md` | Грант Enabler: Bitget DEMO + TradingView + CoinGlass. Не live-деньги | живой runbook |
+## Контур 2026-09-02
+
+| путь | суть | статус |
+|---|---|---|
+| `from-grok/2026-09-02-wr60-kontekst.md` | Дыры соло-детекторов и AND-комбо к WR≥60%. Не обещание P&L | живой runbook |
+| `from-grok/patterns/2026-09-02-p1.md` | Зигзаг A-B-C (EWP). WR 40.6% n=1574 | диагностика |
+| `from-grok/patterns/2026-09-02-p2.md` | Треугольник TE. WR 36.5% n=310 | диагностика |
+| `from-grok/patterns/2026-09-02-p3.md` | Flat. WR 41.2% n=2220 | диагностика |
+| `from-grok/patterns/2026-09-02-p4.md` | Объём CONFIRM, не вход. WR 39.5% n=6553 | диагностика |
+| `from-grok/patterns/2026-09-02-p5.md` | Флаг/вымпел не-EWP. WR 30.4% n=612 | диагностика |
+| `from-grok/patterns/2026-09-02-c1.md` | AND: P1 зигзаг + P4 объём. Прогон ещё нет | кандидат |
+| `from-grok/patterns/2026-09-02-dnevnik.md` | Дневник дня 1 | диагностика |
+| `from-grok/patterns/2026-09-02-replay.md` | Записка прогона K-0 | диагностика |
+| `from-grok/demo/2026-09-02-lenta.md` | Демо-лента 02.09, сделок нет | диагностика |
+| `razvedka/novinki/2026-09-02-x-api-tape.md` | Срез X 02.09 | кандидат |
 | `from-grok/2026-09-01-pattern-loop.md` | Ежедневный контур: 5 правил + replay + эволюция схемы. Не PREF, не канон | живой runbook |
 | `from-grok/PROVENANCE.md` | Провенанс задним числом | живой runbook |
 
