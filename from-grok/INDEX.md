@@ -1,11 +1,11 @@
 # INDEX — накопленное поле Grok
 
-Обзор blobов на `main` на 2026-09-02. Коммит среза: `e824d8346ceaa7d0c425b72f83d79aae0f2e4f9a` (C2 replay + C3). Не канон. Не PREF. Не Foundation.
+Обзор blobов на `main` на 2026-09-02. Коммит среза: `f9e77707fde75fa4c02be9aede7345e3761edf80` (C3 replay). Не канон. Не PREF. Не Foundation.
 Новые пакеты Grok кладутся только в `from-grok/`. Исторические пути не переносились.
 
 Статусы: **архив** (закончено, не меняется) / **кандидат** / **сверка** / **диагностика** / **источник Владельца** / **живой runbook** (меняется). Этот файл обновлять при каждом изменении поля, включая строку коммита среза.
 
-N = **105** (все blobы `main` кроме `.gitignore`, включая этот INDEX и PROVENANCE).
+N = **106** (все blobы `main` кроме `.gitignore`, включая этот INDEX и PROVENANCE).
 
 ## Корень
 
@@ -33,6 +33,7 @@ N = **105** (все blobы `main` кроме `.gitignore`, включая это
 | `from-grok/2026-09-02-five-mechanisms.md` | Цель: 5 механизмов WR≥60% и живой дневной цикл | живой runbook |
 | `from-grok/patterns/mehanizmy.md` | Доска: пока 0 из 5 | живой runbook |
 | `from-grok/patterns/2026-09-02-c2-replay.md` | C2: n=327 WR 33.95%, хуже P1. 4h-свеча вредна | диагностика |
+| `from-grok/patterns/2026-09-02-c3-replay.md` | C3: n=694 WR 39.91% ≈ P1. SMA20 не лифт | диагностика |
 | `from-grok/patterns/2026-09-02-c3.md` | AND: P1 + дневной SMA20. Прогон нет | кандидат |
 | `from-grok/patterns/2026-09-02-c2.md` | AND: P1 + направление закрытого 4h. Прогон нет | кандидат |
 | `from-grok/2026-09-02-wr60-kontekst.md` | Дыры соло-детекторов и AND-комбо к WR≥60%. Не обещание P&L | живой runbook |
