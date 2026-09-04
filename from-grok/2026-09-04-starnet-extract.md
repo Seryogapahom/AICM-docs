@@ -108,3 +108,31 @@ Append-only JSONL решений `fire|skip|defer|…`; fail-open если ло�
 ## Изоляция
 
 MIT pattern reference. Если когда-либо запускать бинарь/sidecar — **изолированная VM**, без production keys, без Full Power, без доступа к Hermes/live.
+
+
+## Дополнение аудита (тот же день, глубже по коду)
+
+Tip commit: `ebf7c4f2a06add0a743e0aeb63cc26ddf3f973c6` (feat/harness-backend).  
+Доп. репо: `androoAGI/academy-clips` (affiliate clips, не harness). Инсталляторы `starnet-releases` **не** скачивались.
+
+### Уточнения к SN-*
+
+| Тема | Факт кода | Правка для AICM |
+|---|---|---|
+| Truthful telemetry | Локальный law «UI не врёт о harness»; `PRIVACY.md` отрицает phone-home analytics | Копировать как **доказуемое состояние**; не путать с SaaS telemetry |
+| MemCore (SN-08) | trust step ~0.15; **half-life 30d** (`TRUST_HALFLIFE_MS = 2592e6`) | Старение beliefs/сигналов: de-weight, не silent drop |
+| Night Shift (SN-05) | away ~30m, beat ~45m, `leashPerDay`, E-STOP `haltedAt`; unattended terminal/MCP grants | **Узко:** идея leash/E-STOP для batch-разведки; **не** unattended money/shell |
+| Budget (SN-02) | soft caps + `resume`; warn @80%; `budgetcaps` perRun/agent/day/global (0=no cap) | Копировать caps **ужесточить до hard fail-closed**; resume без dual-control — нет |
+| Autonomy ledger (SN-01) | fail-open: битый лог → пустой | Для money/audit: **fail-closed**, не как у StarNet |
+| Loop | guards до paid call, pairing tool results, STOP | Копировать **инварианты**, не весь `loop.js` (~117kB) |
+| Recommend (SN-06) | evidence-or-silence; `SESSION_ASK_MAX=4` | Принцип evidence — да; proactive UX/spam — нет |
+| Release (SN-10) | `qa:ready` + signed releases | Machine-gated ship; READY ≠ financial correctness |
+
+### Config knobs (refs в trunk)
+
+- Budgets: perRun / perAgent / perDay / global; `WARN_FRAC` 0.8; loop `maxCostUsd`; env `SKYNET_MODEL_PRICES`, `SKYNET_MAX_UNPRICED_TOKENS`, `SKYNET_AUX_BUDGET` (default 2).
+- Permissions: ASK / Full Access bypass / **Full Power** `unrestrictedHost`; workshop / terminalGrant / connectorGrant.
+- Night Shift: `actsUnattended`, `leashPerDay`, away/beat defaults, halt.
+- Port: `PORT` / `SKYNET_PORT`.
+
+Ещё файл: `sidecar/recommendation-ledger.js` (рядом с recommend spine).
