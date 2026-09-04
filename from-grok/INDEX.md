@@ -5,7 +5,7 @@
 
 Статусы: **архив** (закончено, не меняется) / **кандидат** / **сверка** / **диагностика** / **источник Владельца** / **живой runbook** (меняется). Этот файл обновлять при каждом изменении поля, включая строку коммита среза.
 
-N = **127** (все blobы `main` кроме `.gitignore`, включая этот INDEX и PROVENANCE).
+N = **128** (все blobы `main` кроме `.gitignore`, включая этот INDEX и PROVENANCE).
 
 ## Корень
 
@@ -69,6 +69,7 @@ N = **127** (все blobы `main` кроме `.gitignore`, включая это
 | `from-grok/2026-09-03-macro-mn-mechanisms.md` | MN-1…6: surprise/nowcast/Kalshi/vintage/окно/drift. Не вход | кандидат |
 | `from-grok/2026-09-04-linkages-layer.md` | Связи активов/компаний: LNK-1…6, GitHub shortlist. Не вход | живой runbook |
 | `from-grok/2026-09-04-linkages-mechanisms.md` | LNK-RCORR…GRAPH-LAG + OSS лицензии. Не вход | кандидат |
+| `from-grok/2026-09-04-linkages-open-sources.md` | LINK-01…22: statsmodels/FF/GLEIF/ICIO/Farside. Не вход | кандидат |
 | `from-grok/linkages/2026-09-04-lnk1a.md` | LNK-1a BTC→ETH co-move 1h. Прогон отдельно | кандидат |
 | `from-grok/macro/2026-09-03-m1-eventstudy.md` | M1-REACT: NFP event-study на K-0. Карта стороны не заморожена | кандидат |
 | `from-grok/macro/2026-09-04-nfp.md` | Карточка NFP 4 Sep: consensus +56k, ADP +38k, INLINE | диагностика |
