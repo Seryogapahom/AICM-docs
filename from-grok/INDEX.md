@@ -187,3 +187,4 @@ Complementary-слои Андреев / Радченко / Миша / Армен
 | `kanon/sessions/s18.md` | Сессия 18: L2-B4; Level 2 FORMALLY_CLOSED; L3-B1 ACTIVE; L3 PREF = 0 | источник Владельца |
 
 - [2026-09-04 StarNet extract SN-01…10](2026-09-04-starnet-extract.md) — независимое извлечение androoAGI/starnet (MIT pattern; не Full Power)
+- [2026-09-04 StarNet KC Разведчик](../razvedka/novinki/2026-09-04-starnet-androoagi.md) — provenance + URL map; рядом extract SN-01…10
