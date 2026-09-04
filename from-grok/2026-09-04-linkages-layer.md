@@ -85,13 +85,16 @@ THEN записать ret_B в 1h/1d; hit = знак совпал с гипот�
 
 | Репозиторий | Stars (срез) | Лицензия | Зачем нам | Риск |
 |---|---|---|---|---|
-| [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) | ~72k | см. репо (NOASSERTION на API) | витрина мультиактивов, корреляции, макро | тяжёлый стек; не live-бот |
+| [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) | ~72k | **AGPL-3.0** | витрина мультиактивов | AGPL viral; тяжёлый стек; не live |
 | [microsoft/qlib](https://github.com/microsoft/qlib) | ~48k | MIT | факторы, дата-пайплайн, исследование | не наш live; китайские датасеты по умолчанию |
-| [polakowo/vectorbt](https://github.com/polakowo/vectorbt) | ~9k | см. репо | быстрый event/correlation research на барах | Pro/лицензия уточнять; не стратегия «из коробки» |
+| [polakowo/vectorbt](https://github.com/polakowo/vectorbt) | ~9k | Commons Clause (Sell) | corr/β offline | не свободный продукт; не бот |
 | [JerBouma/FinanceDatabase](https://github.com/JerBouma/FinanceDatabase) | ~8k | MIT | каталог тикеров/секторов/крипты для графа LNK-5/6 | данные устаревают; не цены |
 | [hudson-and-thames/arbitrage_research](https://github.com/hudson-and-thames/arbitrage_research) | ~158 | BSD-3 | пары / статистический арбитраж как учебник LNK-1 | примеры, не прод |
 | [jm199504/Financial-Knowledge-Graphs](https://github.com/jm199504/Financial-Knowledge-Graphs) | ~3k | уточнять | идея KG компаний (Neo4j) | китайский корпус; не копировать данные в git |
-| мелкие crypto-correlation matrix | ≤2 | — | идея матрицы альтов | заброшены; писать свой тонкий скрипт на Vision |
+| [dcajasn/Riskfolio-Lib](https://github.com/dcajasn/Riskfolio-Lib) | ~4.5k | BSD-3 | cov/corr, risk contrib | оптимизация ≠ прогноз |
+| [stefan-jansen/zipline-reloaded](https://github.com/stefan-jansen/zipline-reloaded) | ~1.9k | Apache-2.0 | event-study multi-asset | не бот |
+| мелкие crypto-correlation matrix | ≤2 | — | идея матрицы альтов | заброшены; свой скрипт на Vision |
+Инкремент механизмов/URL: `from-grok/2026-09-04-linkages-mechanisms.md`.
 
 Не внедрять как бренд. В git лаборатории — только карточки/спеки на русском, не форк реп.
 
