@@ -188,3 +188,4 @@ Complementary-слои Андреев / Радченко / Миша / Армен
 
 - [2026-09-04 StarNet extract SN-01…10](2026-09-04-starnet-extract.md) — независимое извлечение androoAGI/starnet (MIT pattern; не Full Power)
 - [2026-09-04 StarNet KC Разведчик](../razvedka/novinki/2026-09-04-starnet-androoagi.md) — provenance + URL map; рядом extract SN-01…10
+- [2026-09-05 Trevs Agents / trevortaylor29](2026-09-05-trevsagents-extract.md) — Fundamental score + research pipeline; ACE/BOLT/SAGE не в open source; LICENSE пустой
